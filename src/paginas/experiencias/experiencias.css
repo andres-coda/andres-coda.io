@@ -1,0 +1,11 @@
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 2rem 0;
+    box-sizing: border-box;
+    margin: 0 0 2rem 0;
+    gap: 2rem
+}

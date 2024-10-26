@@ -1,0 +1,97 @@
+.inputs-span{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    justify-content: end;
+    align-items: end;
+}
+
+.inputs-span span{
+    color: var(--color71);
+    margin: 0;
+    font-size: 0.7em;
+    padding: 0 0.5rem;
+    min-height: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.inputs-entero{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.inputs-entero input, 
+.inputs-entero textarea{
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 1em;
+    padding: 9px 0.5rem 0 0.5rem;
+    border: 1px solid var(--color91);
+    border-image: linear-gradient(45deg, var(--coloresNuevos3), var(--coloresNuevos5)) 1;
+    color: var(--color1)
+}
+
+.inputs-entero input:focus, 
+.inputs-entero textarea:focus{
+    border: 1px solid var(--color1);
+   outline: none;
+}
+
+.inputs-entero input:focus + label,
+.inputs-entero textarea:focus + label{
+    font-size: 0.9em;
+    font-weight: 640 !important;
+}
+
+.inputs-entero label{
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    color: var(--coloresNuevos5);
+    font-size: 1em;
+    font-weight: 350;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.inputs-entero input:focus + label,
+.inputs-entero input:not(:placeholder-shown) + label,
+.inputs-entero textarea:focus + label,
+.inputs-entero textarea:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 0.8em;
+    background: linear-gradient(var(--coloresNuevos1), var(--coloresNuevos2));
+    padding: 0 1rem;
+    transform: translate(15%, -50%);
+    border-radius: 20px;
+}
+
+.inputs-entero input:placeholder-shown + label,
+.inputs-entero textarea:placeholder-shown + label {
+    font-weight: 330;
+}
+
+.alin-derecha input{
+    text-align: right !important;
+}
+
+.is-invalida input{
+    border: 1px solid var(--color71);
+}
+
+.inputs-entero textarea{
+    resize: vertical;
+    min-height: 60px;
+}

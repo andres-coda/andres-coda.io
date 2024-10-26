@@ -1,0 +1,103 @@
+.btn-general{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    height: 40px;
+    min-width: 100px;
+    cursor: pointer;
+    border: none;
+    text-wrap: nowrap;
+    box-sizing: border-box;
+    margin:0;
+    font-weight: 550;
+    font-size: 0.9em;
+}
+
+.primario{
+    background: linear-gradient(135deg, var(--coloresNuevos5), var(--coloresNuevos4));
+    background-color: var(--coloresNuevos4);
+    color: var(--coloresNuevos1);
+}
+
+.primario:hover{
+    background: linear-gradient(135deg, var(--coloresNuevos1), var(--coloresNuevos2));
+    background-color: var(--coloresNuevos1);
+    color: var(--coloresNuevos4);
+    box-shadow: 2px 2px 4px var(--coloresNuevos3);
+}
+
+.secundario{
+    background-color: transparent;
+    color: var(--coloresNuevos4); 
+    border: 2px solid var(--coloresNuevos4)
+}
+
+.secundario:hover{
+    background: linear-gradient(135deg, var(--coloresNuevos5), var(--coloresNuevos4));
+    border: 2px solid var(--coloresNuevos2);
+    color: var(--coloresNuevos1);
+    box-shadow: 2px 2px 4px var(--coloresNuevos3);
+}
+
+.cerrar{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 101;
+    background-color: transparent;
+    color: var(--coloresNuevos4);
+    height: 35px;
+    min-width: 25px;
+}
+
+
+
+.exito{
+    background-color: transparent;
+    color: var(--coloresNuevos3);
+    font-size: 0.8em; 
+}
+
+.exito:hover{
+    box-shadow: none;
+}
+
+.exito:hover,
+.cerrar:hover{
+    text-shadow: 1px 1px 2px var(--coloresNuevos3);
+    color: var(--coloresNuevos5);
+    text-decoration: underline;
+    scale: 1.2;
+}
+
+.disimulado{
+    color: var(--color31);
+    text-decoration: underline;
+}
+
+.disimulado:hover{
+    box-shadow: none;
+    text-shadow: 1px 1px 6px var(--color4);
+    color: var(--color31);
+}
+
+.deshabilitado{
+    color: var(--color91);
+    background-color: var(--color61);
+    border: 1px solid var(--color6);
+    font-weight: 200;
+    cursor: default;
+}
+
+.deshabilitado:hover{
+    box-shadow: none;
+}
+
+@media (max-width: 400px) {
+    .primario, .secundario, .deshabilitado {
+        width: 100%;
+        max-width: none;
+    }
+    .cerrar, .exito{        
+        padding: 0.5rem 0.8rem;
+    }
+}

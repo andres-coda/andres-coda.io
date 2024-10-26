@@ -1,0 +1,18 @@
+.botonera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media(max-width: 400px) {
+    .botonera{
+        flex-direction: column-reverse;
+       justify-content: start; 
+       align-items: center;    
+    gap: 0.2rem;
+    }
+    
+}

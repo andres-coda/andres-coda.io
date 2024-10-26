@@ -1,0 +1,35 @@
+.habilidades-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden; 
+    width: 100%;
+}
+
+.habilidades{
+    display: flex;
+    flex-wrap: nowrap;
+    animation: scroll 20s linear infinite;
+    width: max-content; 
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 2.5rem 0;
+    gap: 2rem;
+    will-change: transform;
+  cursor: grab;
+}
+
+.habilidades.paused {
+    animation-play-state: paused; 
+    cursor: grabbing;
+  }
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+    
+}
