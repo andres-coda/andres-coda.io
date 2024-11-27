@@ -3,7 +3,7 @@ import { SobreMi } from '../../modelos/interfaces/db.interface';
 import linkedin from '../../assets/linckedin.svg'
 
 const dbjson:SobreMi = {
-  "img": "/src/assets/andres-sinFondo.png",
+  "img": "/public/assets/andres-sinFondo.png",
   "titulo": "<Desarrollador web Full Stack/>",
   "descripcion":[
       {"desp":"¡Hola! Soy desarrollador web con experiencia en tecnologías como React, NestJS y SQL, entre otras. Mi enfoque siempre está en resolver problemas reales a través de soluciones tecnológicas eficientes y bien estructuradas."}
