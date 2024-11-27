@@ -1,19 +1,26 @@
 import './presentacion.css'
-import dbJson from '../../../db/db.json'
-import { DB } from '../../modelos/interfaces/db.interface';
+import { SobreMi } from '../../modelos/interfaces/db.interface';
 import linkedin from '../../assets/linckedin.svg'
 
+const dbjson:SobreMi = {
+  "img": "/src/assets/andres-sinFondo.png",
+  "titulo": "<Desarrollador web Full Stack/>",
+  "descripcion":[
+      {"desp":"¡Hola! Soy desarrollador web con experiencia en tecnologías como React, NestJS y SQL, entre otras. Mi enfoque siempre está en resolver problemas reales a través de soluciones tecnológicas eficientes y bien estructuradas."}
+  ]
+}
+
 function Presentacion() {
-  const db: DB = dbJson;
+  const db: SobreMi= dbjson;
 
   return (
     <div className='presentacion'>
-                <h1>{db.sobreMi.titulo}</h1>
+                <h1>{db.titulo}</h1>
       <div className='presentacion-contenido'>
-            <img src={db.sobreMi.img} alt='Andrés Coda' />
+            <img src={db.img} alt='Andrés Coda' />
             <div>
                 <h3>Andrés Coda</h3>
-                {db.sobreMi.descripcion?.map((desp,index)=>(
+                {db.descripcion?.map((desp,index)=>(
                   <p key={`desp-mi${index}`}>{desp.desp}</p>
                 ))}
               <div className='enlaces'>
