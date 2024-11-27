@@ -9,9 +9,9 @@ interface Props {
 function Habilidad({tec, clase}: Props) {
   return (
     <div className={`skill ${clase ? clase : ''}`}>
-          <img src={tec.logo} alt={tec.titulo}/>
-          <p>{tec.titulo}</p>
-          </div>
+    <img src={tec.logo} alt={tec.titulo}/>
+    <p>{tec.titulo}</p>
+    </div>
   )
 }
 

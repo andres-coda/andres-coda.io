@@ -30,10 +30,12 @@
   --color10: #F5EFB7;
 
   --coloresNuevos1:#191E29;
+  --coloresNuevos11:#191e29d3;
   --coloresNuevos2:#132D46;
   --coloresNuevos3:#01C38D;
   --coloresNuevos4:#BAD5B5;
   --coloresNuevos5:#FDDEA6;
+
   
   background: linear-gradient(175deg, var(--coloresNuevos1), var(--coloresNuevos2));
 

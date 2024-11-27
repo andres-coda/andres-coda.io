@@ -1,3 +1,4 @@
+import './contacto.css'
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect, useState } from "react";
@@ -56,7 +57,7 @@ function Contacto() {
   }
 
   return (
-    <>
+    <div className="contacto">
       <Formulario
         titulo={'Contacto'}
         onSubmit={handleSubmit(onSubmit)}
@@ -79,7 +80,7 @@ function Contacto() {
           <TextArea<ContactoValues> name='message' control={control} label='Mensaje' error={errors.message} />
         </>
       </Formulario>
-    </>
+    </div>
   )
 }
 

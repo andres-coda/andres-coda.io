@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './carrusel.css'
-import ArrowLeft from '../../assets/arrowLeft.svg'
+import  ArrowLeft from '../../assets/arrowLeft.svg'
 import ArrowRight from '../../assets/arrowRight.svg'
 import { Imagenes } from '../../modelos/interfaces/db.interface';
 
@@ -46,14 +46,15 @@ function Carrusel({ img }: PropsCarrucel) {
   return (
     <div className='carrusel'>
       <div className='carrusel-sup'>
-      <img src={ArrowLeft} alt='Anterior' title='Anterior' className='flechaAnt' onClick={handleAnterior} />
+        <img src={ArrowLeft} alt='Atras' height={40} width={40} className='flechaAnt' onClick={handleAnterior} />   
       <img
         src={img[actual].img}
         alt={img[actual].titulo}
         key={img[actual].img} 
         className="img-transition-enter-active"
       />
-      <img src={ArrowRight} alt='Siguiente' title='Siguiente' className='flechaSig' onClick={handleSiguiente} />
+      <img src={ArrowRight} alt='Siguiente' height={40} width={40} className='flechaSig' onClick={handleSiguiente} />   
+  
       </div>
       <div className='carrusel-inf'>
         {img?.map((img, index)=>(
@@ -62,6 +63,7 @@ function Carrusel({ img }: PropsCarrucel) {
             alt={img.titulo}
             onClick={()=>handleSelec(index)}
             className={index === actual ? 'img-activa' : ''}
+            key={`mini-${index}`}
           />
         ))}
       </div>
@@ -70,3 +72,8 @@ function Carrusel({ img }: PropsCarrucel) {
 }
 
 export default Carrusel;
+
+
+/*
+<img src={ArrowLeft} alt='Anterior' title='Anterior' className='flechaAnt' onClick={handleAnterior}/>
+*/

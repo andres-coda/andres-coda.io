@@ -12,15 +12,15 @@ interface Props {
 function Enlaces({ enlace, enlaceGitBack, enlaceGitFront }: Props) {
   return (
     <div className="exp-enlaces">
-      <h6><a href={enlace} target="_blank" rel="noopener noreferrer" title="Enlace para acceder a la página">
+      {enlace && <h6><a href={enlace} target="_blank" rel="noopener noreferrer" title="Enlace para acceder a la página">
           <img src={EnlacePg} alt='Enlace para acceder a la página' />
-        </a></h6>
-      <h6><a href={enlaceGitFront} target="_blank" rel="noopener noreferrer" title="Enlace para acceder al git del Frontend">
+        </a></h6>}
+      {enlaceGitFront &&<h6><a href={enlaceGitFront} target="_blank" rel="noopener noreferrer" title="Enlace para acceder al git del Frontend">
         <img src={EnlaceFront} alt='Enlace para acceder al git del Frontend' />
-        </a></h6>
-      <h6><a href={enlaceGitBack} target="_blank" rel="noopener noreferrer" title="Enlace para acceder al git del Backend">
+        </a></h6>}
+      {enlaceGitBack && <h6><a href={enlaceGitBack} target="_blank" rel="noopener noreferrer" title="Enlace para acceder al git del Backend">
         <img src={EnlaceBack} alt='Enlace para acceder al git del Backend' />
-      </a></h6>
+      </a></h6>}
     </div>
   )
 }

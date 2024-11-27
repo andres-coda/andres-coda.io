@@ -13,8 +13,7 @@
 
 
 .skill:hover{
-    box-shadow: 1px 1px 1px  var(--coloresNuevos3);
-    scale: 2;
+    scale: 1.5;
 }
 
 .skill p{

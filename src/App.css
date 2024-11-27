@@ -14,10 +14,6 @@
   scale: 1;
   opacity: 1;
   transition: scale, .2s ease-in-out, opacity, .2s ease-in-out;
-  @starting-sty le{
-    scale:0;
-    opacity: 0;
-  }
 }
 
 .modal-inactivo{
@@ -34,6 +30,7 @@
   padding: 0;
   margin-top: 50px;
   width: 100vw;
+  height: auto;
   max-height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -53,3 +50,13 @@
   border-radius: 10px;
 }
 
+.conteiner section{
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  justify-content: start;
+  align-items: center; 
+  width: 100%;
+  padding: 20px; 
+  box-sizing: border-box;
+}

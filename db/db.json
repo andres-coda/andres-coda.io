@@ -5,7 +5,7 @@
             "nombre": "Delivery copy",
             "enlaceGitFront":"https://github.com/andres-coda/appTauriFotocopiadora.git",
             "enlaceGitBack":"https://github.com/andres-coda/api-rest.git",
-            "enlace": "*",
+            "enlace": "",
             "año":"Junio 2024 - Octubre 2024",
             "img": [
                 {
@@ -129,7 +129,7 @@
         },{
             "nombre": "Tormenta espacial",
             "enlaceGitFront":"https://github.com/andres-coda/tormenta-espacial.git",
-            "enlaceGitBack":"*",
+            "enlaceGitBack":"",
             "enlace": "https://andres-coda.github.io/tormenta-espacial.github.io/",
             "año":"Mayo 2023 - Junio 2023",
             "img": [
@@ -156,13 +156,13 @@
             "resumen": "Colaboré en el desarrollo del juego Tormenta Espacial junto a Morena Coda, utilizando Processing. Este proyecto fue realizado como parte de la materia Tecnologías Multimedia en la carrera de Diseño Multimedia en la Universadad Nacional de La Plata.",
             "tecn":[
                 {
-                "logo" : "/src/assets/logoProsessing.svg",
+                "logo" : "/src/assets/logoProsessing.svg?raw",
                 "titulo" : "Processing"
             },{
-                "logo" : "/src/assets/logoHtml.svg",
+                "logo" : "/src/assets/logoHtml.svg?raw",
                 "titulo" : "HTML"
             },{
-                "logo" : "/src/assets/logoCss.svg",
+                "logo" : "/src/assets/logoCss.svg?raw",
                 "titulo" : "CSS"
             }]
         }
@@ -172,8 +172,7 @@
         "img": "/src/assets/andres-sinFondo.png",
         "titulo": "<Desarrollador web Full Stack/>",
         "descripcion":[
-            {"desp":"Esta es una bienvenida a un viaje por mi vida en forma de código"},
-            {"desp":"Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."}
+            {"desp":"¡Hola! Soy desarrollador web con experiencia en tecnologías como React, NestJS y SQL, entre otras. Mi enfoque siempre está en resolver problemas reales a través de soluciones tecnológicas eficientes y bien estructuradas."}
         ]
     },
     "tecno":[
@@ -214,7 +213,7 @@
         "logo" : "/src/assets/logoFigma.svg",
         "titulo" : "Figama"
     },{
-        "logo" : "/src/assets/logoProsessing.svg",
+        "logo" : "/src/assets/logoProsessing.svg?raw",
         "titulo" : "Processing"
     }]
 }
