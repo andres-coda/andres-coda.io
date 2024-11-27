@@ -2,49 +2,62 @@ import { Habilidades } from '../../modelos/interfaces/db.interface';
 import './habilidades.css'
 import Habilidad from '../../componentes/habilidades/habilidad';
 import Titulo from '../../componentes-stilos/titulo/titulo';
+import './habilidades.css'
+import logojs from '/src/assets/logoJs.svg'
+import logots from '/src/assets/logoTs.svg'
+import logosql from '/src/assets/logoSql.svg'
+import logohtml from '/src/assets/logohtml.svg'
+import logocss from '/src/assets/logoCss.svg'
+import logoreact from "/src/assets/react.svg"
+import logonode from "/src/assets/logoNode.svg"
+import logonest from "/src/assets/logoNest.svg"
+import logoc from "/src/assets/logoC.svg"
+import logoexel from "/src/assets/logoExcel.svg"
+import logogit from "/src/assets/logoGit.svg"
+import logofigma from "/src/assets/logoFigma.svg"
+import logoproecessing from "/src/assets/logoProsessing.svg"
 
 const dbJson:Habilidades[]= [
   {
-  "logo" : "/src/assets/logoJs.svg",
+  "logo" : logojs,
   "titulo" : "JavaScript"
 },{
-  "logo" : "/src/assets/logoTs.svg",
+  "logo" : logots,
   "titulo" : "TypeScript"
 },{
-  "logo" : "/src/assets/logoSql.svg",
+  "logo" : logosql,
   "titulo" : "Sql"
 },{
-  "logo" : "/src/assets/logoHtml.svg",
+  "logo" : logohtml,
   "titulo" : "HTML"
 },{
-  "logo" : "/src/assets/logoCss.svg",
+  "logo" : logocss,
   "titulo" : "CSS"
 },{
-  "logo" : "/src/assets/react.svg",
+  "logo" : logoreact,
   "titulo" : "React Js"
 },{
-  "logo" : "/src/assets/logoNode.svg",
+  "logo" : logonode,
   "titulo" : "Node Js"
 },{
-  "logo" : "/src/assets/logoNest.svg",
+  "logo" : logonest,
   "titulo" : "Nest Js"
 },{
-  "logo" : "/src/assets/logoC.svg",
+  "logo" : logoc,
   "titulo" : "C"
 },{
-  "logo" : "/src/assets/logoExcel.svg",
+  "logo" : logoexel,
   "titulo" : "Excel"
 },{
-  "logo" : "/src/assets/logoGit.svg",
+  "logo" : logogit,
   "titulo" : "Git"
 },{
-  "logo" : "/src/assets/logoFigma.svg",
+  "logo" : logofigma,
   "titulo" : "Figama"
 },{
-  "logo" : "/src/assets/logoProsessing.svg?raw",
+  "logo" : logoproecessing,
   "titulo" : "Processing"
 }]
-
 const habilidadesCuadricula = () => {
     const tecno:Habilidades[] | undefined = dbJson; 
   return (

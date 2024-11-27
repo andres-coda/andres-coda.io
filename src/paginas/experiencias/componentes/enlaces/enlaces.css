@@ -10,7 +10,6 @@
 
 .exp-enlaces h6{
     margin: 0;
-    width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
     cursor: pointer;
@@ -32,14 +31,4 @@
     background-color: var(--coloresNuevos1);
     color: var(--coloresNuevos4);
     box-shadow: 2px 2px 4px var(--coloresNuevos3);
-}
-
-@media(max-width:800px){
-    .exp-enlaces{
-        flex-direction: row;
-        width: 100%;
-        gap: none;
-        justify-content: space-around;
-        margin: 0;
-    }
 }

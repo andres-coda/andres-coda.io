@@ -2,6 +2,29 @@ import { Experiencia } from "../../modelos/interfaces/db.interface";
 import ExpCard from "./componentes/card/expCard";
 import './experiencias.css'
 import Titulo from "../../componentes-stilos/titulo/titulo";
+import logojs from '/src/assets/logoJs.svg'
+import logots from '/src/assets/logoTs.svg'
+import logosql from '/src/assets/logoSql.svg'
+import logohtml from '/src/assets/logohtml.svg'
+import logocss from '/src/assets/logoCss.svg'
+import logoreact from "/src/assets/react.svg"
+import logonode from "/src/assets/logoNode.svg"
+import logonest from "/src/assets/logoNest.svg"
+import logogit from "/src/assets/logoGit.svg"
+import logofigma from "/src/assets/logoFigma.svg"
+import logoproecessing from "/src/assets/logoProsessing.svg"
+import deliveriCopy1 from "/src/assets/deliverycopy1.jpeg"
+import deliveriCopy2 from "/src/assets/deliverycopy2.jpeg"
+import deliveriCopy3 from "/src/assets/deliverycopy3.jpeg"
+import deliveriCopy4 from "/src/assets/deliverycopy4.jpeg"
+import cerveceria1 from "/src/assets/cerveceria1.svg"
+import cerveceria2 from "/src/assets/cerveceria2.svg"
+import cerveceria3 from "/src/assets/cerveceria4.svg"
+import cerveceria4 from "/src/assets/cerveceria5.svg"
+import juego1 from "/src/assets/juego1.png"
+import juego2 from "/src/assets/juego2.png"
+import juego3 from "/src/assets/juego3.png"
+import juego4 from "/src/assets/juego4.png"
 
 const dbJson:Experiencia[] =  [
       {
@@ -13,19 +36,19 @@ const dbJson:Experiencia[] =  [
           "img": [
               {
                   "titulo":"Delivery copy",
-                  "img":"/src/assets/deliverycopy1.jpeg"
+                  "img":deliveriCopy1
               },
               {
                   "titulo":"Delivery copy",
-                  "img":"/src/assets/deliverycopy2.jpeg"
+                  "img":deliveriCopy2
               },
               {
                   "titulo":"Delivery copy",
-                  "img":"/src/assets/deliverycopy3.jpeg"
+                  "img":deliveriCopy3
               },
               {
                   "titulo":"Delivery copy",
-                  "img":"/src/assets/deliverycopy4.jpeg"
+                  "img":deliveriCopy4
               }
           ],
           "descripcion":[
@@ -36,34 +59,34 @@ const dbJson:Experiencia[] =  [
           ],
           "resumen": "Es una aplicación de escritorio desarrollada para gestionar libros y pedidos en una fotocopiadora. Actualmente, se encuentra en producción. La app permite la carga, edición y eliminación de usuarios, libros, pedidos, escuelas y precios. Además, incluye filtros por fecha de pedidos, estado del pedido y libros.",
           "tecn":[{
-              "logo" : "/src/assets/logoJs.svg",
+              "logo" : logojs,
               "titulo" : "JavaScript"
           },{
-              "logo" : "/src/assets/logoTs.svg",
+              "logo" : logots,
               "titulo" : "TypeScript"
           },{
-              "logo" : "/src/assets/logoSql.svg",
+              "logo" : logosql,
               "titulo" : "Sql"
           },{
-              "logo" : "/src/assets/logoHtml.svg",
+              "logo" : logohtml,
               "titulo" : "HTML"
           },{
-              "logo" : "/src/assets/logoCss.svg",
+              "logo" : logocss,
               "titulo" : "CSS"
           },{
-              "logo" : "/src/assets/react.svg",
+              "logo" : logoreact,
               "titulo" : "React Js"
           },{
-              "logo" : "/src/assets/logoNode.svg",
+              "logo" : logonode,
               "titulo" : "Node Js"
           },{
-              "logo" : "/src/assets/logoNest.svg",
+              "logo" :logonest,
               "titulo" : "Nest Js"
           },{
-              "logo" : "/src/assets/logoGit.svg",
+              "logo" : logogit,
               "titulo" : "Git"
           },{
-              "logo" : "/src/assets/logoFigma.svg",
+              "logo" : logofigma,
               "titulo" : "Figama"
           }]
       },{
@@ -75,19 +98,19 @@ const dbJson:Experiencia[] =  [
           "img": [
               {
                   "titulo":"Portada y carrusel",
-                  "img":"/src/assets/cerveceria1.svg"
+                  "img":cerveceria1
               },
               {
                   "titulo":"Lista de productos",
-                  "img":"/src/assets/cerveceria2.svg"
+                  "img":cerveceria2
               },
               {
                   "titulo":"Perfil de usuarios",
-                  "img":"/src/assets/cerveceria4.svg"
+                  "img":cerveceria3
               },
               {
                   "titulo":"Lista de pedidos",
-                  "img":"/src/assets/cerveceria5.svg"
+                  "img":cerveceria4
               }
           ],
           "descripcion":[
@@ -99,34 +122,34 @@ const dbJson:Experiencia[] =  [
           ],
           "resumen": "Este proyecto fue desarrollado en colaboración con Carla Arean, Facundo Álvarez Torriglia y Juan Curutchet, en el marco de la tecnicatura en Desarrollo Web Full Stack, dictada por el Cluster Informático de Tandil. La página es un e-commerce de una cervecería artesanal.",
           "tecn":[{
-              "logo" : "/src/assets/logoJs.svg",
+              "logo" : logojs,
               "titulo" : "JavaScript"
           },{
-              "logo" : "/src/assets/logoTs.svg",
+              "logo" : logots,
               "titulo" : "TypeScript"
           },{
-              "logo" : "/src/assets/logoSql.svg",
+              "logo" : logosql,
               "titulo" : "Sql"
           },{
-              "logo" : "/src/assets/logoHtml.svg",
+              "logo" : logohtml,
               "titulo" : "HTML"
           },{
-              "logo" : "/src/assets/logoCss.svg",
+              "logo" : logocss,
               "titulo" : "CSS"
           },{
-              "logo" : "/src/assets/react.svg",
+              "logo" : logoreact,
               "titulo" : "React Js"
           },{
-              "logo" : "/src/assets/logoNode.svg",
+              "logo" : logonode,
               "titulo" : "Node Js"
           },{
-              "logo" : "/src/assets/logoNest.svg",
+              "logo" : logonest,
               "titulo" : "Nest Js"
           },{
-              "logo" : "/src/assets/logoGit.svg",
+              "logo" : logogit,
               "titulo" : "Git"
           },{
-              "logo" : "/src/assets/logoFigma.svg",
+              "logo" : logofigma,
               "titulo" : "Figama"
           }]
       },{
@@ -138,19 +161,19 @@ const dbJson:Experiencia[] =  [
           "img": [
               {
                   "titulo":"Tormenta espacial",
-                  "img":"/src/assets/juego1.png"
+                  "img":juego1
               },
               {
                   "titulo":"Tormenta espacial",
-                  "img":"/src/assets/juego2.png"
+                  "img":juego2
               },
               {
                   "titulo":"Tormenta espacial",
-                  "img":"/src/assets/juego3.png"
+                  "img":juego3
               },
               {
                   "titulo":"Tormenta espacial",
-                  "img":"/src/assets/juego4.png"
+                  "img":juego4
               }
           ],
           "descripcion":[
@@ -159,13 +182,13 @@ const dbJson:Experiencia[] =  [
           "resumen": "Colaboré en el desarrollo del juego Tormenta Espacial junto a Morena Coda, utilizando Processing. Este proyecto fue realizado como parte de la materia Tecnologías Multimedia en la carrera de Diseño Multimedia en la Universadad Nacional de La Plata.",
           "tecn":[
               {
-              "logo" : "/src/assets/logoProsessing.svg?raw",
+              "logo" : logoproecessing,
               "titulo" : "Processing"
           },{
-              "logo" : "/src/assets/logoHtml.svg?raw",
+              "logo" : logohtml,
               "titulo" : "HTML"
           },{
-              "logo" : "/src/assets/logoCss.svg?raw",
+              "logo" : logocss,
               "titulo" : "CSS"
           }]
       }
