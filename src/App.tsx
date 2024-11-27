@@ -11,9 +11,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ScrollHandler />
-      <Heder />
       <div className='conteiner'>
+      <Heder />
+      <ScrollHandler />
         <section id='sobremi' className='article'>
           <Presentacion />
         </section>

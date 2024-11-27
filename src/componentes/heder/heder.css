@@ -1,14 +1,15 @@
 .heder{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 100%;
     height: 30px;
-    background-color: transparent;
+    background-color: var(--coloresNuevos11);
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .nav{

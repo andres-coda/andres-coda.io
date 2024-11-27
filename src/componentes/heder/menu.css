@@ -1,5 +1,5 @@
 .menu{
-    position: absolute;
+    position: fixed;
     top:0;
     right: 20px;
     width: min-content;
@@ -9,6 +9,7 @@
     align-items: end;
     text-align: right;
     background-color: var(--coloresNuevos11);
+    z-index: 101;
 }
 
 .menu svg {
