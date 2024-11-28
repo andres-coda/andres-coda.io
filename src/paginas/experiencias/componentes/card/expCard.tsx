@@ -14,7 +14,7 @@ function ExpCard({ img, enlace, enlaceGitFront, enlaceGitBack, nombre, descripci
   return (
     <>
 
-      <div className={`exp-interno`}>
+      <article className={`exp-interno`}>
         <ExpCardInterno
           img={img}
           nombre={nombre}
@@ -34,7 +34,7 @@ function ExpCard({ img, enlace, enlaceGitFront, enlaceGitBack, nombre, descripci
             onClick={() => { setModal(true), setModalLocal(true) }}
           />
         </div>
-      </div>
+      </article>
       <Modal modalLocal={modalLocal} setModalLocal={setModalLocal} >
         <>
         <ExpCardInterno

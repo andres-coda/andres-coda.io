@@ -14,6 +14,17 @@ export  interface Habilidades{
     titulo:string;
 }
 
+export interface EstudiosInterface {
+  nombre:string;
+  anoInicial: string;
+  anoFinal: string;
+  descripcion:string;
+  institucion:string;
+  situacion:string;
+  certificado?:Habilidades[];
+
+}
+
   
 export interface Experiencia{
     nombre: string;

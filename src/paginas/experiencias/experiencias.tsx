@@ -200,7 +200,7 @@ function Experiencias() {
 	return (
         <>
             <Titulo titulo="Experiencias" />
-		<article className='experiencias'>
+		<div className='experiencias'>
 			{db.map((exp, index) => (
                 <ExpCard 
                 img={exp.img}
@@ -215,7 +215,7 @@ function Experiencias() {
                 key={`exp-${index}`} 
                 />
 			))}
-		</article>
+		</div>
             </>
 	)
 }

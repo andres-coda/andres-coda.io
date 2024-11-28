@@ -1,0 +1,13 @@
+
+.estudios {
+    display: grid;
+    gap: 2rem;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 700px) {
+    .estudios {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

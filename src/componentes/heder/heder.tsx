@@ -13,6 +13,7 @@ function Heder() {
       <nav className='nav'>
         <Link smooth to="#sobremi" className={activo === '#sobremi' ? 'active' : ''} >Sobre mi</Link>
         <Link smooth to='#experiencias' className={activo === '#experiencias' ? 'active' : ''} >Experiencias</Link>
+        <Link smooth to='#estudios' className={activo === '#estudios' ? 'active' : ''} >Estudios</Link>
         <Link smooth to='#habilidades' className={activo === '#habilidades' ? 'active' : ''} >Habilidades</Link>
         <Link smooth to='#contacto' className={activo === '#contacto' ? 'active' : ''} >Contacto</Link>
       </nav>

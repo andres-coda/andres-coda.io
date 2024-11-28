@@ -6,6 +6,7 @@ import Experiencias from './paginas/experiencias/experiencias'
 import HabilidadesCuadricula from './paginas/habilidades/habilidadesCuadricula'
 import Contacto from './paginas/contacto/contacto'
 import ScrollHandler from './componentes/pantalla/scrollHandler'
+import Estudios from './paginas/estudios/estudios'
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
         </section>
         <section id='experiencias' className='article'>
           <Experiencias />
+        </section>
+        <section id='estudios' className='article'>
+          <Estudios />
         </section>
         <section id='habilidades' className='article'>
           <HabilidadesCuadricula />
