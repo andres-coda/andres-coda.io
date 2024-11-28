@@ -35,10 +35,9 @@
 .enlaces{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: end;
     justify-content: right;
-    gap:2rem
 }
 
 .certificado{
