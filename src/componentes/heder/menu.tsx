@@ -6,10 +6,11 @@ import './menu.css'
 import { useState } from 'react';
 function Menu() {
   const { activo } = useScroll();
-  const [activarMenu, setActivarMenu] = useState<boolean>(true);
+  const [activarMenu, setActivarMenu] = useState<boolean>(false);
+
   return (
     <div className="menu">
-      {activarMenu
+      {!activarMenu
         ? (<FontAwesomeIcon icon={faBars} color='currentColor' onClick={()=>setActivarMenu(prev=>!prev)}/>)
         : (<>
           <FontAwesomeIcon icon={faX} color='currentColor' onClick={()=>setActivarMenu(prev=>!prev)}/>
