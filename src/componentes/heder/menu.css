@@ -1,3 +1,17 @@
+.menu-fondo{
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.menu-activo{
+    width: min-content !important;
+    height: min-content !important;
+}
 .menu{
     position: fixed;
     top:0;

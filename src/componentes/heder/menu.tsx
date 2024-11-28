@@ -3,13 +3,15 @@ import useScroll from '../../hooks/visual/useScroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import './menu.css'
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 function Menu() {
+  const menuRef = useRef<HTMLDivElement>(null)
   const { activo } = useScroll();
   const [activarMenu, setActivarMenu] = useState<boolean>(false);
 
   return (
-    <div className="menu">
+    <div className={`menu-fondo ${!activarMenu ? 'menu-activo' : ''}`} onClick={()=>setActivarMenu(false)}>
+    <div className="menu" ref={menuRef} onClick={(e)=>e.stopPropagation()}>
       {!activarMenu
         ? (<FontAwesomeIcon icon={faBars} color='currentColor' onClick={()=>setActivarMenu(prev=>!prev)}/>)
         : (<>
@@ -23,6 +25,7 @@ function Menu() {
           </ul>
         </>
         )}
+    </div>
     </div>
   )
 }
