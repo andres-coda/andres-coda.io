@@ -20,6 +20,7 @@ function Menu() {
           <ul>
             <li><Link smooth to="#sobremi" className={activo === '#sobremi' ? 'active' : ''} onClick={() => setActivarMenu(false)}>Sobre mi</Link></li>
             <li><Link smooth to='#experiencias' className={activo === '#experiencias' ? 'active' : ''} onClick={() => setActivarMenu(false)}>Experiencias</Link></li>
+            <li><Link smooth to='#estudios' className={activo === '#estudios' ? 'active' : ''} onClick={() => setActivarMenu(false)}>Estudios</Link></li>
             <li><Link smooth to='#habilidades' className={activo === '#habilidades' ? 'active' : ''} onClick={() => setActivarMenu(false)}>Habilidades</Link></li>
             <li><Link smooth to='#contacto' className={activo === '#contacto' ? 'active' : ''} onClick={() => setActivarMenu(false)}>Contacto</Link></li>
           </ul>
