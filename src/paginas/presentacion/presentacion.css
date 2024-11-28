@@ -89,6 +89,6 @@
         text-align: start;
     }
     .presentacion-contenido{
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
