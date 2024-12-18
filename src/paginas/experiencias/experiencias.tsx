@@ -87,7 +87,7 @@ const dbJson:Experiencia[] =  [
               "titulo" : "Git"
           },{
               "logo" : logofigma,
-              "titulo" : "Figama"
+              "titulo" : "Figma"
           }]
       },{
           "nombre": "Cervecería Green Beer",
@@ -150,7 +150,7 @@ const dbJson:Experiencia[] =  [
               "titulo" : "Git"
           },{
               "logo" : logofigma,
-              "titulo" : "Figama"
+              "titulo" : "Figma"
           }]
       },{
           "nombre": "Tormenta espacial",

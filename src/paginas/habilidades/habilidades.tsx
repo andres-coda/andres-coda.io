@@ -57,7 +57,7 @@ const dbJson:Habilidades[]= [
   "titulo" : "Git"
 },{
   "logo" : logofigma,
-  "titulo" : "Figama"
+  "titulo" : "Figma"
 },{
   "logo" : logoproecessing,
   "titulo" : "Processing"

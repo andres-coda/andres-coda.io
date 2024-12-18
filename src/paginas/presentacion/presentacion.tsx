@@ -2,6 +2,8 @@ import './presentacion.css'
 import { SobreMi } from '../../modelos/interfaces/db.interface';
 import linkedin from '../../assets/linckedin.svg'
 import andresImg from '/src/assets/andres-sinFondo.png';
+import Boton from '../../componentes-stilos/boton/boton';
+import cv from '../../assets/CodaAndresCV.pdf'
 
 const dbjson:SobreMi = {
   "img": andresImg,
@@ -25,6 +27,9 @@ function Presentacion() {
                   <p key={`desp-mi${index}`}>{desp.desp}</p>
                 ))}
               <div className='enlaces'>
+                <a href={cv}  download="Andres-Coda-CV.pdf">
+                  <Boton texto='Descargar CV' color='secundario'/>
+                </a>
                 <a href='https://www.linkedin.com/in/andr%C3%A9s-coda-83824027a/'  target="_blank"><img src={linkedin} alt='Linkedin' width={32} height={32}/></a>
               </div>
             </div>

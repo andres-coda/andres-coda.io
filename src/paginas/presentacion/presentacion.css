@@ -33,7 +33,7 @@
     width: 200px;
     height: 200px;
     object-fit:cover;
-    filter : drop-shadow(4px 4px 4px var(--coloresNuevos3));
+    filter : drop-shadow(2px 2px 2px var(--coloresNuevos3));
     transition: width 0.4s ease, height 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -62,8 +62,9 @@
 
 .enlaces{
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: start;
+    gap: 1rem;
     align-items: start;
     width: 100%;
     margin: 0;
