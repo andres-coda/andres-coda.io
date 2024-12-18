@@ -2,8 +2,8 @@ import Titulo from "../../componentes-stilos/titulo/titulo"
 import { EstudiosInterface } from "../../modelos/interfaces/db.interface"
 import EstudioCard from "./card/estudioCard"
 import './estudios.css'
-import Certificado1 from '../../assets/certificado.png';
-import Certificado2 from '../../assets/scrum.jpg';
+import Certificado1 from '../../assets/certificado.webp';
+import Certificado2 from '../../assets/scrum.webp';
 
 const estudio:EstudiosInterface[] = [{
   nombre:"Desarrollo web Full Stack",

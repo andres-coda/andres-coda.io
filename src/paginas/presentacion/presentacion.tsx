@@ -1,7 +1,7 @@
 import './presentacion.css'
 import { SobreMi } from '../../modelos/interfaces/db.interface';
 import linkedin from '../../assets/linckedin.svg'
-import andresImg from '/src/assets/andres-sinFondo.png';
+import andresImg from '/src/assets/andres-sinFondo.webp';
 import Boton from '../../componentes-stilos/boton/boton';
 import cv from '../../assets/CodaAndresCV.pdf'
 
